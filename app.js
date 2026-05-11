@@ -70,7 +70,7 @@ const getLinkFromDB = async (name) => {
   else return herokuLink;
 };
 
-const herokuLink = "https://link-maker-pvx.onrender.com"; //home link of website!
+const herokuLink = "https://link-devilxcheats.com"; //home link of website!
 const regex = /[^A-Za-z1-9]/g; //regex to have only alphabets and numbers
 
 app.get("/", (req, res) => {
